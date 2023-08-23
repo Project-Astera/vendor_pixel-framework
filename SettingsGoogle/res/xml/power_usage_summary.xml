@@ -70,6 +70,11 @@
         android:summary="@string/low_battery_light_summary"
         settings:controller="com.android.settings.notification.BatteryLightPreferenceController"/>
 
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="battery_full_light_enabled"
+        android:title="@string/battery_full_light_enabled"
+        android:defaultValue="false" />
+
     <Preference
         android:fragment="com.android.settings.fuelgauge.BatteryChargeSoundSettings"
         android:key="battery_charge_sound"
